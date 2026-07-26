@@ -1,8 +1,8 @@
-# Nassreddine El Makhlouq — Portfolio V11
+# Nassreddine El Makhlouq — Portfolio 
 
 Professional, non-commercial developer portfolio prepared for deployment at `nassreddine-net.github.io` and a future `nassreddine.is-a.dev` request.
 
-## V11 improvements
+##  improvements
 - Refined homepage hierarchy and professional project cards
 - Lightweight scroll reveal animations with reduced-motion support
 - Scroll progress indicator and back-to-top control
@@ -11,7 +11,7 @@ Professional, non-commercial developer portfolio prepared for deployment at `nas
 - Canonical URLs, Open Graph, Twitter Card and Schema.org Person metadata
 - Updated sitemap and robots.txt for the root GitHub Pages domain
 - Bilingual Arabic/English interface and persistent dark/light mode
-- No CV page, store, payment system or fictional projects
+  
 
 ## Deployment
 Upload all files to the root of the public repository named:

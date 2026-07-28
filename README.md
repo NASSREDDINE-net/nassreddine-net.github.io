@@ -170,11 +170,7 @@ const nassreddine = {
 
 <div align="center">
 
-### Have a project or collaboration idea?
 
-<a href="https://github.com/NASSREDDINE-net">
-  <img src="https://img.shields.io/badge/LET'S_CONNECT-00E5FF?style=for-the-badge&logo=github&logoColor=020617" alt="Connect on GitHub"/>
-</a>
 
 <br><br>
 

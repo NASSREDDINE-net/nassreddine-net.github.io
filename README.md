@@ -127,21 +127,7 @@ A digital services and products platform designed for a clear customer journey a
 
 </div>
 
----
 
-## `> GITHUB.analytics`
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=NASSREDDINE-net&show_icons=true&theme=transparent&hide_border=true&title_color=00E5FF&icon_color=00E5FF&text_color=C9D1D9&bg_color=00000000" alt="GitHub statistics"/>
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=NASSREDDINE-net&theme=transparent&hide_border=true&stroke=00E5FF&ring=00E5FF&fire=FF4D8D&currStreakLabel=00E5FF&sideLabels=C9D1D9&dates=8B949E" alt="GitHub streak"/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NASSREDDINE-net&layout=compact&theme=transparent&hide_border=true&title_color=00E5FF&text_color=C9D1D9&bg_color=00000000" alt="Top languages"/>
-
-</div>
-
----
 
 ## `> CONTRIBUTION_STREAM`
 
@@ -153,18 +139,7 @@ A digital services and products platform designed for a clear customer journey a
 
 ---
 
-## `> CURRENT_MISSION`
 
-```javascript
-const nassreddine = {
-  learning: ["Advanced JavaScript", "Modern UI/UX", "WordPress"],
-  building: "Professional websites and digital experiences",
-  values: ["Clean code", "Creative design", "Continuous learning"],
-  availableFor: ["Freelance projects", "Collaboration", "Open source"]
-};
-```
-
----
 
 ## `> CONNECT`
 

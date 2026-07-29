@@ -117,7 +117,7 @@ A digital services and products platform designed for a clear customer journey a
 
 **Stack:** HTML · CSS · JavaScript
 
-<a href="https://nassreddine-net.github.io/SI-NASSER/">
+<a href="https://nassreddine-net.github.io/STORE/">
   <img src="https://img.shields.io/badge/VIEW_PROJECT-00E5FF?style=flat-square&logo=googlechrome&logoColor=020617" alt="View project"/>
 </a>
 

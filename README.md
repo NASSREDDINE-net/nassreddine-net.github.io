@@ -1,213 +1,156 @@
-# 🇲🇦 Morocco Projects Map
+<div align="center">
 
-> **Discover, explore and visualize projects across Morocco.**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:0f172a,100:00e5ff&height=220&section=header&text=NASSREDDINE%20EL%20MAKHLOUQ&fontSize=38&fontColor=ffffff&fontAlignY=36&desc=FULL-STACK%20WEB%20DEVELOPER%20%7C%20WORDPRESS%20SPECIALIST&descAlignY=58&descSize=17&animation=fadeIn" width="100%" alt="Header"/>
 
-[![Live Website](https://img.shields.io/badge/Live%20Website-morocco--projects.is--a.bot-08783f?style=for-the-badge)](https://morocco-projects.is-a.bot/)
-[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222?style=for-the-badge&logo=github)](https://pages.github.com/)
-[![Made for Morocco](https://img.shields.io/badge/Made%20for-Morocco-c1272d?style=for-the-badge)](https://morocco-projects.is-a.bot/)
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=Welcome+to+my+digital+space;Building+modern+and+responsive+websites;HTML+%7C+CSS+%7C+JavaScript+%7C+WordPress;Clean+code.+Creative+design.+Real+results." alt="Typing animation"/>
 
-**Morocco Projects Map** is a static, multilingual web application for discovering and visualizing selected projects and initiatives across Morocco.
+<br>
 
-The project combines an interactive **Leaflet + OpenStreetMap** map, structured JSON data, search and filters, project details, dashboard insights, Moroccan Darija, French, English, responsive design, sharing links and light/dark mode.
+<a href="https://nassreddine-net.github.io/">
+  <img src="https://img.shields.io/badge/LIVE_PORTFOLIO-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=020617" alt="Portfolio"/>
+</a>
+<a href="https://github.com/NASSREDDINE-net">
+  <img src="https://img.shields.io/badge/GITHUB_PROFILE-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<img src="https://komarev.com/ghpvc/?username=NASSREDDINE-net&label=PROFILE+VIEWS&color=00c8ff&style=for-the-badge" alt="Profile views"/>
 
-## 🌐 Live
+</div>
 
-**https://morocco-projects.is-a.bot/**
+---
 
-## ✨ Features
+## `> SYSTEM.identity`
 
-- 🗺️ Interactive Morocco map powered by Leaflet and OpenStreetMap
-- 🔎 Search across project name, city, region, category, status and source
-- 🎛️ Filters by sector, region, status and year
-- 📋 Project details with location, status, year, budget, jobs and coordinates
-- 🔗 Official source links
-- 📤 Shareable project links using URL hashes
-- 📊 Dashboard statistics and category breakdown
-- 📍 Optional browser geolocation
-- 🇲🇦 Moroccan Darija in **AR**, with RTL support
-- 🇫🇷 French and 🇬🇧 English
-- 🌙 Persistent light/dark mode
-- 📱 Responsive desktop, tablet and mobile UI
-- 🖼️ Project logo, favicon and social preview
-- 🔍 Basic SEO metadata, canonical URL, sitemap and robots file
-- 🚀 Static deployment with no backend or database
-
-## 🧱 Stack
-
-| Technology | Role |
-|---|---|
-| HTML5 | Structure |
-| CSS3 | UI, responsive design and themes |
-| JavaScript | Search, filters, map and interactions |
-| Leaflet | Interactive mapping |
-| OpenStreetMap | Base map |
-| JSON | Project dataset |
-| GitHub Pages | Hosting |
-
-## 📁 Structure
-
-```text
-morocco-projects-map/
-├── assets/
-│   ├── css/style.css
-│   ├── js/app.js
-│   └── images/
-│       ├── logo.png
-│       ├── favicon.png
-│       └── brand-lockup.png
-├── data/
-│   └── projects.json
-├── CNAME
-├── index.html
-├── nojekyll.txt
-├── robots.txt
-├── sitemap.xml
-├── site.webmanifest
-└── README.md
+```yaml
+name: Nassreddine El Makhlouq
+role: Full-Stack Web Developer
+location: Morocco
+focus:
+  - Modern responsive websites
+  - WordPress development
+  - Front-end experiences
+  - Digital products
+status: Open to collaboration
 ```
 
-## 📊 Data
+I create **fast, responsive and user-friendly digital experiences** with a strong focus on clean design, accessibility and real-world usability.
 
-Project records live in `data/projects.json`.
+My goal is simple: transform ideas into professional websites that look great on every screen.
 
-Typical fields include:
+---
 
-```json
-{
-  "id": 1,
-  "name": "Project name",
-  "city": "City",
-  "region": "Region",
-  "category": "Transport",
-  "year": 2026,
-  "status": "In progress",
-  "description": "Project description",
-  "budget": null,
-  "jobs": null,
-  "lat": 33.57,
-  "lng": -7.59,
-  "sourceName": "Official source",
-  "source": "https://example.com",
-  "verified": true
-}
-```
+## `> TECH_STACK.load()`
 
-### Data principles
+<div align="center">
 
-1. Prefer official or reliable sources.
-2. Keep source links when available.
-3. Keep coordinates accurate and review them.
-4. Do not fabricate project information.
-5. Mark information as verified only when it has been checked.
-6. Treat project data as a dataset that requires periodic review.
+### Front End
 
-## 🛠️ Run locally
+<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap&theme=dark" alt="Front-end skills"/>
 
-```bash
-git clone https://github.com/NASSREDDINE-net/morocco-projects-map.git
-cd morocco-projects-map
-python -m http.server 8000
-```
+### Development & Tools
 
-Open:
+<img src="https://skillicons.dev/icons?i=wordpress,git,github,vscode,figma&theme=dark" alt="Tools"/>
 
-```text
-http://localhost:8000/
-```
+</div>
 
-A local HTTP server is recommended because the browser loads `data/projects.json`.
+---
 
-## 🌐 Deployment
+## `> CORE_SKILLS`
 
-The project is configured for GitHub Pages:
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```text
-Branch: main
-Folder: /
-```
+### Web Development
 
-Custom domain:
+- Responsive website development
+- Landing pages and portfolios
+- HTML, CSS and JavaScript
+- Mobile-first interfaces
+- Performance optimization
+- SEO-friendly structure
 
-```text
-morocco-projects.is-a.bot
-```
+</td>
+<td width="50%" valign="top">
 
-The `CNAME` file must remain present when deploying the site.
+### WordPress
 
-## 🔍 SEO
+- WordPress website creation
+- Elementor page building
+- Theme customization
+- Website redesign
+- Content and layout integration
+- Maintenance and troubleshooting
 
-The project includes:
+</td>
+</tr>
+</table>
 
-- `robots.txt`
-- `sitemap.xml`
-- `site.webmanifest`
-- Canonical URL
-- Open Graph metadata
-- Favicon and Apple touch icon
+---
 
-## 🧪 Testing checklist
+## `> FEATURED_PROJECTS`
 
-- [ ] Homepage loads
-- [ ] JSON data loads
-- [ ] Map loads
-- [ ] Markers appear
-- [ ] Search works
-- [ ] Sector/region/status/year filters work
-- [ ] Project details open
-- [ ] Official source links work
-- [ ] Project sharing works
-- [ ] FR / EN / AR work
-- [ ] Darija RTL layout works
-- [ ] Light/dark mode works
-- [ ] Geolocation button behaves correctly
-- [ ] Mobile layout works
-- [ ] Custom domain works
-- [ ] No unexpected popup appears on refresh
-- [ ] No new browser console errors
+<div align="center">
 
-## 🤝 Contributing
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Contributions are welcome.
+### Personal Portfolio
 
-Useful contributions include:
+A modern bilingual developer portfolio with responsive pages, theme switching, smooth interactions and optimized assets.
 
-- 🐛 Bug reports
-- 💡 Feature proposals
-- 🗺️ Data improvements
-- 🎨 UI/UX improvements
-- 📱 Mobile improvements
-- 🌐 Translation improvements
-- ⚡ Performance improvements
-- 📚 Documentation
+**Stack:** HTML · CSS · JavaScript
 
-For Pull Requests, explain **what changed, why it changed and how it was tested**. Do not add unverified project information.
+<a href="https://nassreddine-net.github.io/">
+  <img src="https://img.shields.io/badge/VIEW_LIVE-00E5FF?style=flat-square&logo=googlechrome&logoColor=020617" alt="View live"/>
+</a>
+<a href="https://github.com/NASSREDDINE-net/nassreddine-net.github.io">
+  <img src="https://img.shields.io/badge/SOURCE_CODE-111827?style=flat-square&logo=github&logoColor=white" alt="Source code"/>
+</a>
 
-## 🧭 Roadmap
+</td>
+<td width="50%" valign="top">
 
-- [ ] Project-specific pages
-- [ ] More detailed regional analytics
-- [ ] Improved map clustering
-- [ ] More advanced geographic search
-- [ ] More official project sources
-- [ ] Better accessibility
-- [ ] Data update workflow
-- [ ] Expanded SEO for individual projects
+### SI NASSER
 
-## 🛡️ Attribution
+A digital services and products platform designed for a clear customer journey and deployment through GitHub Pages.
 
-Mapping uses **Leaflet** and **OpenStreetMap**. OpenStreetMap attribution must remain visible.
+**Stack:** HTML · CSS · JavaScript
 
-Project information remains subject to the terms and attribution requirements of its original sources.
+<a href="https://nassreddine-net.github.io/STORE/">
+  <img src="https://img.shields.io/badge/VIEW_PROJECT-00E5FF?style=flat-square&logo=googlechrome&logoColor=020617" alt="View project"/>
+</a>
 
-## 👨‍💻 Developer
+</td>
+</tr>
+</table>
 
-**Developed by NASSREDDINE**
+</div>
 
-- 🌐 Portfolio: https://nassreddine.is-a.dev
-- 💻 GitHub: https://github.com/NASSREDDINE-net
 
-## 🇲🇦 Built for Morocco
 
-> **كتاشف المشاريع اللي كاينة فالمغرب، شوف الخريطة، وقلب على المعلومة اللي كتهمك.**
+## `> CONTRIBUTION_STREAM`
 
-**Morocco Projects Map** — an open foundation for exploring projects across Morocco.
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NASSREDDINE-net&bg_color=00000000&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Contribution graph"/>
+
+</div>
+
+---
+
+
+
+## `> CONNECT`
+
+<div align="center">
+
+
+
+<br><br>
+
+**Thanks for visiting my profile.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00e5ff,55:0f172a,100:020617&height=120&section=footer" width="100%" alt="Footer"/>
+
+</div>

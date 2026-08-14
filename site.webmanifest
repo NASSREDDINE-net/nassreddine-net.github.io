@@ -1,8 +1,1 @@
-{
-  "name": "Morocco Projects Map",
-  "short_name": "Morocco Projects",
-  "start_url": "/",
-  "display": "standalone",
-  "description": "Interactive map and dashboard of projects across Morocco.",
-  "lang": "fr"
-}
+{"name":"Nassreddine El Makhlouq Portfolio","short_name":"Nassreddine","start_url":"/","display":"standalone","background_color":"#070b14","theme_color":"#070b14","icons":[{"src":"assets/logo.webp","sizes":"512x512","type":"image/webp"}]}

@@ -4,3 +4,5 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}[data-reveal]{opacity:1;transform:none}}
 
 .featured-project{grid-column:span 2}.featured-project .project-shot{aspect-ratio:21/9}.featured-project .project-body{padding:30px}@media(max-width:680px){.featured-project{grid-column:auto}.featured-project .project-shot{aspect-ratio:16/10}}
+
+.nasser-pdf-cover{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:36px;text-align:center;background:linear-gradient(135deg,#071b2c,#0a4d67);border-radius:inherit}.nasser-pdf-cover strong{font-size:clamp(28px,5vw,54px);letter-spacing:.08em}.nasser-pdf-cover small{font-size:12px;opacity:.8;letter-spacing:.08em;text-transform:uppercase}

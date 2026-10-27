@@ -18,14 +18,22 @@
   <meta property="og:description" content="Web development, electronics, robotics and digital projects.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nassreddine.is-a.dev/">
-  <meta property="og:image" content="https://nassreddine.is-a.dev/assets/si-nasser-project.webp">
+  <meta property="og:image" content="https://nassreddine.is-a.dev/assets/profile-photo.webp">
 
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Nassreddine El Makhlouq | Developer Portfolio">
+  <meta name="twitter:description" content="Web development, electronics, educational robotics and selected projects.">
+  <meta property="og:image:alt" content="Portrait of Nassreddine El Makhlouq">
+  <meta property="og:locale" content="en_US">
 
+  <link rel="preload" as="image" href="assets/profile-photo.webp" type="image/webp" fetchpriority="high">
   <link rel="icon" href="assets/logo.webp">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="assets/style.css">
 
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Nassreddine El Makhlouq","alternateName":"نصر الدين المخلوق","url":"https://nassreddine.is-a.dev/","image":"https://nassreddine.is-a.dev/assets/profile-photo.webp","jobTitle":"Web Developer","address":{"@type":"PostalAddress","addressCountry":"MA"},"sameAs":["https://github.com/NASSREDDINE-net","https://www.linkedin.com/in/nassreddine-el-makhlouq/"]}
+  </script>
   <script defer src="assets/app.js"></script>
 </head>
 
@@ -38,14 +46,14 @@
     <div class="container nav">
 
       <a class="brand" href="#home" aria-label="Nassreddine home">
-        <img src="assets/logo.webp" alt="Nassreddine logo" width="48" height="48">
+        <img src="assets/logo.webp" alt="Nassreddine logo" width="48" height="48" decoding="async">
         <span>
           NASSREDDINE
           <small>Personal Portfolio</small>
         </span>
       </a>
 
-      <nav class="menu" aria-label="Primary navigation">
+      <nav class="menu" id="primary-navigation" aria-label="Primary navigation">
         <a href="#home" data-i18n="home"></a>
         <a href="#about" data-i18n="about"></a>
         <a href="#skills" data-en="Skills" data-ar="المهارات"></a>
@@ -55,15 +63,15 @@
       </nav>
 
       <div class="nav-actions">
-        <button class="lang-btn" onclick="toggleLang()" data-lang-label aria-label="Change language">
+        <button type="button" class="lang-btn" onclick="toggleLang()" data-lang-label aria-label="Change language">
           AR
         </button>
 
-        <button class="icon-btn" onclick="toggleTheme()" data-theme-label aria-label="Change theme">
+        <button type="button" class="icon-btn" onclick="toggleTheme()" data-theme-label aria-label="Change theme">
           ☀
         </button>
 
-        <button class="icon-btn menu-toggle" data-menu-toggle aria-label="Open menu">
+        <button type="button" class="icon-btn menu-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
           ☰
         </button>
       </div>
@@ -132,7 +140,7 @@
 
           <div class="profile-glow"></div>
 
-          <img class="profile-logo" src="assets/logo.webp" alt="Nassreddine personal logo" width="180" height="180">
+          <img class="profile-logo" src="assets/profile-photo.webp" alt="Portrait photograph of Nassreddine El Makhlouq" width="240" height="309" fetchpriority="high" decoding="async">
 
           <div class="availability">
             <span></span>
@@ -446,7 +454,7 @@
 
             <a class="project-shot" href="https://morocco-projects.is-a.bot/" target="_blank" rel="noopener">
 
-              <img src="assets/morocco-projects-map.png" alt="Morocco Projects Map interactive map" loading="lazy">
+              <img src="assets/morocco-projects-map.png" alt="Morocco Projects Map interactive map" loading="lazy" decoding="async">
 
             </a>
 
@@ -498,7 +506,7 @@
 
             <a class="project-shot" href="https://societemilana.org/" target="_blank" rel="noopener">
 
-              <img src="assets/milana-project.png" alt="MILANA website" loading="lazy">
+              <img src="assets/milana-project.png" alt="MILANA website" loading="lazy" decoding="async">
 
             </a>
 
@@ -531,9 +539,7 @@
                   Live demo ↗
                 </a>
 
-                <a class="btn ghost" href="https://github.com/NASSREDDINE-net/MILANA" target="_blank" rel="noopener">
-                  GitHub
-                </a>
+                
 
               </div>
 
@@ -547,7 +553,7 @@
 
             <a class="project-shot" href="https://nasserpdf.devs.surf/" target="_blank" rel="noopener">
 
-              <img src="assets/nasser-pdf-project.png" alt="NASSER PDF website" loading="lazy">
+              <img src="assets/nasser-pdf-project.png" alt="NASSER PDF website" loading="lazy" decoding="async">
 
             </a>
 
@@ -597,9 +603,9 @@
           <!-- PROJECT 04 — SI NASSER -->
           <article class="project-card card" data-reveal>
 
-            <a class="project-shot" href="https://nassreddine.is-a.dev/STORE/" target="_blank" rel="noopener">
+            <a class="project-shot" href="https://nassreddine-net.github.io/STORE/" target="_blank" rel="noopener">
 
-              <img src="assets/si-nasser-project.webp" alt="SI NASSER website" loading="lazy">
+              <img src="assets/si-nasser-project.webp" alt="SI NASSER website" loading="lazy" decoding="async">
 
             </a>
 
@@ -628,7 +634,7 @@
 
               <div class="actions">
 
-                <a class="btn primary" href="https://nassreddine.is-a.dev/STORE/" target="_blank" rel="noopener">
+                <a class="btn primary" href="https://nassreddine-net.github.io/STORE/" target="_blank" rel="noopener">
                   Live demo ↗
                 </a>
 
@@ -646,12 +652,12 @@
           <!-- PROJECT 05 — PORTFOLIO TEMPLATE -->
           <article class="project-card card project-personal" data-reveal>
 
-            <a class="project-shot" href="https://nassreddine.is-a.dev/portfolio-template1/" target="_blank"
+            <a class="project-shot" href="https://nassreddine-net.github.io/portfolio-template1/" target="_blank"
               rel="noopener">
 
               <div class="project-visual">
 
-                <img src="assets/portfolio-template1-project.png" alt="Portfolio Template 1 screenshot" loading="lazy">
+                <img src="assets/portfolio-template1-project.png" alt="Portfolio Template 1 screenshot" loading="lazy" decoding="async">
 
               </div>
 
@@ -684,7 +690,7 @@
 
               <div class="actions">
 
-                <a class="btn primary" href="https://nassreddine.is-a.dev/portfolio-template1/" target="_blank"
+                <a class="btn primary" href="https://nassreddine-net.github.io/portfolio-template1/" target="_blank"
                   rel="noopener" data-en="View template ↗" data-ar="عرض القالب ↗">
                 </a>
 
@@ -815,8 +821,8 @@
             Email ↗
           </a>
 
-          <a href="https://wa.me/212625489095" target="_blank" rel="noopener">
-            WhatsApp ↗
+          <a href="contact.html">
+            Contact ↗
           </a>
 
           <a href="https://github.com/NASSREDDINE-net" target="_blank" rel="noopener">
